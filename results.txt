@@ -1,0 +1,56 @@
+Airport saved {
+  terminals: [],
+  _id: 5fdd70409a2165179b747d0a,
+  name: 'First Airport',
+  country: 'US',
+  opened: 2020-12-15T00:00:00.000Z
+}
+server running on 8080
+Successfully connected to MongoDB
+
+
+1. 
+Flight saved {
+  _id: 5fdd74de31bcce18bce0b13f,
+  from: 'CDG France',
+  to: 'JFK New-York,USA',
+  airline: 'American Airlines'
+}
+
+2.
+Flight saved {
+  _id: 5fdd74de31bcce18bce0b140,
+  from: 'Heathrow UK',
+  to: 'JFK New-York,USA',
+  airline: 'British Airways'
+}
+
+3.
+Airport saved: {
+  terminals: [],
+  _id: 5fdd75713c2a3218e0f4d59b,
+  name: 'JFK',
+  country: 'USA',
+  opened: 1990-12-15T00:00:00.000Z
+}
+
+4.
+Terminal saved: {
+  flights: [
+    {
+      _id: 5fdd7823521f21197356a6b5,
+      from: 'CDG France',
+      to: 'JFK New-York,USA',
+      airline: 'American Airlines'
+    },
+    {
+      _id: 5fdd7823521f21197356a6b6,
+      from: 'Heathrow UK',
+      to: 'JFK New-York,USA',
+      airline: 'British Airways'
+    }
+  ],
+  _id: 5fdd7823521f21197356a6b8,
+  name: 'Terminal 1',
+  capacity: 234324
+}
